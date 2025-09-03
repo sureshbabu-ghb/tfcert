@@ -1,0 +1,11 @@
+# Terraform
+.terraform/             # ignore provider/plugin cache
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.auto.tfvars
+# Keep this file in git (dependency pins)
+#! .terraform.lock.hcl
